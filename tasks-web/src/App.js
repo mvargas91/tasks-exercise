@@ -174,7 +174,7 @@ render(){
 
     <Modal isOpen={this.state.modalEliminar}>
       <ModalBody>
-        Estás seguro que deseas eliminar a la empresa {form && form.nombre}
+        Estás seguro que deseas eliminar a la tarea {form && form.nombre}
       </ModalBody>
       <ModalFooter>
         <button className="btn btn-danger" onClick={()=>this.deleteTask()}>Sí</button>
